@@ -8,8 +8,8 @@ permissions:
     pull-requests: write
 
 jobs:
-    run-craft-module-tests:
-        uses: ./.github/workflows/base.yml
+    run-simple-mediatR-tests:
+        uses: ./.github/workflows/base.yaml
         with:
             test_project_path: 'tests/SimpleMediatRTests'
             comment_tag: 'test-results-simplemediatR'
