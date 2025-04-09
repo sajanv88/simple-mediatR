@@ -25,7 +25,7 @@ Or via NuGet Package Manager:
 Install-Package SimpleMediatR
 ```
 
-🛠️ Usage
+## 🛠️ Usage
 1. Register MediatR in your DI Container
 2. 
 ```csharp
@@ -56,7 +56,7 @@ var result = await mediatR.SendAsync(ping);
 logger.LogInformation($"Received response  ({result})");
 ```
 
-🔔 Notifications
+## 🔔 Notifications
 You can also publish notifications to multiple handlers:
 
 ```csharp
@@ -90,6 +90,6 @@ class NewUserNotificationHandler(ILogger<NewUserNotificationHandler> logger) : I
 Checkout the examples folder for more usage examples.
 
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to open issues, suggest features, or submit pull requests.
 
