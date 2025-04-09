@@ -9,7 +9,7 @@ permissions:
 
 jobs:
     run-craft-module-tests:
-        uses: ./.github/workflows/base.yml
+        uses: ./.github/workflows/base.yaml
         with:
             test_project_path: 'tests/SimpleMediatRTests'
             comment_tag: 'test-results-simplemediatR'
