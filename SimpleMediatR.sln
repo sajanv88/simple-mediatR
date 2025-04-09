@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CC8D044-6AC3-4115-BF9E-94C68578E91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{FC65D181-0A71-4F57-A243-CECDBFA9C96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMediatRConsoleApp", "examples\SimpleMediatRConsoleApp\SimpleMediatRConsoleApp.csproj", "{98E818B6-D69B-44FC-8A55-8FE793074E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMediatR", "src\SimpleMediatR\SimpleMediatR.csproj", "{D56FE10C-9D96-4961-A1FA-8584FEE10B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98E818B6-D69B-44FC-8A55-8FE793074E82} = {FC65D181-0A71-4F57-A243-CECDBFA9C96A}
+		{D56FE10C-9D96-4961-A1FA-8584FEE10B92} = {4CC8D044-6AC3-4115-BF9E-94C68578E91D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E818B6-D69B-44FC-8A55-8FE793074E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E818B6-D69B-44FC-8A55-8FE793074E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E818B6-D69B-44FC-8A55-8FE793074E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E818B6-D69B-44FC-8A55-8FE793074E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56FE10C-9D96-4961-A1FA-8584FEE10B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56FE10C-9D96-4961-A1FA-8584FEE10B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56FE10C-9D96-4961-A1FA-8584FEE10B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56FE10C-9D96-4961-A1FA-8584FEE10B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
