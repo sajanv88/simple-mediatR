@@ -30,7 +30,7 @@ public class SimpleMediatRTest
     {
         var services = new ServiceCollection();
         services.AddLogging();
-        services.AddMediatr();
+        services.AddMediatR();
         
         var provider = services.BuildServiceProvider();
         var mediatR = provider.GetRequiredService<IMediatR>();
@@ -45,7 +45,7 @@ public class SimpleMediatRTest
     {
         var services = new ServiceCollection();
         services.AddLogging();
-        services.AddMediatr();
+        services.AddMediatR();
         
         var provider = services.BuildServiceProvider();
         var mediatR = provider.GetRequiredService<IMediatR>();
@@ -64,7 +64,7 @@ public class SimpleMediatRTest
     {
         var services = new ServiceCollection();
         services.AddLogging();
-        services.AddMediatr();
+        services.AddMediatR();
         
         var provider = services.BuildServiceProvider();
         var mediatR = provider.GetRequiredService<IMediatR>();

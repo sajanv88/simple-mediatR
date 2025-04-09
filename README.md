@@ -1,7 +1,7 @@
 # SimpleMediatR
 A lightweight and easy-to-use implementation of the MediatR pattern for
 .NET Core applications. This library provides a clean and decoupled way to send request, 
-and publish notifications within your application using the mediator pattern.
+and publish notifications within your application.
 
 If you are looking for a simple and effective way to manage communication between components in your .NET Core application, 
 SimpleMediatR is the perfect solution.
@@ -27,9 +27,8 @@ Install-Package SimpleMediatR
 
 ## 🛠️ Usage
 1. Register MediatR in your DI Container
-2. 
 ```csharp
-builder.Services.AddMediatr(); // Automatically registers all handlers in the assembly
+builder.Services.AddMediatR(); // Automatically registers all handlers in the assembly
 ```
 2. Define a Request and its Handler
 

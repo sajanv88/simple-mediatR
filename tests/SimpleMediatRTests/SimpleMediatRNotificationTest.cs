@@ -32,7 +32,7 @@ public class SimpleMediatRNotificationTest
         var services = new ServiceCollection();
         services.AddSingleton(loggerMock.Object); // 👈 register mock logger
         services.AddLogging();
-        services.AddMediatr();
+        services.AddMediatR();
 
         var provider = services.BuildServiceProvider();
         var mediatR = provider.GetRequiredService<IMediatR>();

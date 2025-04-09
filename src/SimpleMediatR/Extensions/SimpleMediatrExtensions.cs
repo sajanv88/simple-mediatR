@@ -2,9 +2,17 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace SimpleMediatR.Extensions;
 
+/// <summary>
+///   Provides extension methods for setting up MediatR in an ASP.NET Core application.
+/// </summary>
 public static class SimpleMediatrExtensions
 {
-    public static IServiceCollection AddMediatr(this IServiceCollection services)
+    /// <summary>
+    ///     Adds MediatR services to the specified <see cref="IServiceCollection" />.
+    /// </summary>
+    /// <param name="services"></param>
+    /// <returns></returns>
+    public static IServiceCollection AddMediatR(this IServiceCollection services)
     {
         services.AddScoped<IMediatR, MediatR>();
         var assemblies = AppDomain.CurrentDomain.GetAssemblies();

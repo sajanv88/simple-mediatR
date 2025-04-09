@@ -7,7 +7,7 @@ using SimpleMediatR.Extensions;
 
 var services = new ServiceCollection();
 services.AddLogging(builder => builder.AddConsole());
-services.AddMediatr();
+services.AddMediatR();
 
 
 var provider = services.BuildServiceProvider();
