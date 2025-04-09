@@ -23,7 +23,7 @@ jobs:
             -   name: Pack all projects
                 run: |
                     mkdir -p ./artifacts
-                    dotnet pack src/SimpleMediatR.csproj --configuration Release --no-build --output ./artifacts
+                    dotnet pack src/SimpleMediatR/SimpleMediatR.csproj --configuration Release --no-build --output ./artifacts
                 
                 working-directory: ${{ github.workspace }}
             
